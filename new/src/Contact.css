@@ -1,0 +1,93 @@
+/* Container styles */
+h1{
+    color: black;
+  }
+  
+  .contact-container {
+    background-image: url('/public/contactimg.avif');
+    
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    /* color: #0056b3; */
+    background-repeat: no-repeat;
+      background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+      height: 100vh; /* Changed color to match with contact information */
+  }
+  
+  /* Contact information styles */
+  .contact-info {
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+  }
+  
+  /* Contact form styles */
+  .contact-form {
+    padding: 20px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    color: black;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%; /* Adjusted width to fit the container */
+  }
+  
+  .contact-form button {
+    /* padding: 10px 20px;
+    background-color: #3f87d3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   */
+   padding: 4px 6px;
+    background-color: #333;
+    color: white;
+    font-size: 12px;
+    border: none;
+    /* cursor: pointer; */
+    width: 100px;
+    height: 35px;
+    
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3; /* Changed hover color to match with the container color */
+  }
+  body {
+    margin: 100px;
+    /* padding: 20px; */
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+  
+  

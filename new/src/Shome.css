@@ -1,0 +1,21 @@
+/* Shome.css */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust width as needed */
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .mySlides.active {
+    display: block;
+  }
+  
+  .house-image {
+    width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,113 @@
+/* SignUp.css */
+
+body {
+  /* background-image: url('https://images.chiangmaicitylife.com/clg/wp-content/uploads/2024/03/6.Settasiri-Ruamchok.jpg?auto=format&crop=entropy&dpr=1&fit=crop&fm=jpg&h=597&q=45&w=1140&s=db6e0548cbead97eebc92c61701a71ee'); */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center;
+
+  align-items: center;
+  height: 100vh;
+   /* Ensures the entire viewport height is covered */
+ 
+  margin:100px;
+   /* Remove default margin */
+}
+
+.abc {
+  /* background-image: url('/public/logimg.jpg'); */
+  background-repeat: no-repeat;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+}
+
+.abc h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #353333;
+}
+
+.abc form {
+  display: flex;
+  flex-direction: column;
+}
+
+.abc label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #1b1b1b;
+}
+
+.abc input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #272626;
+  border-radius: 4px;
+}
+
+.abc button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #222020;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.abc button:hover {
+  background-color: #0056b3;
+}
+
+.abc p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.abc p button {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.abc p button:hover {
+  color: #0056b3;
+}
+/* SignUp.css */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ensure the container covers the entire viewport height */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire container */
+}
+
+.abc {
+  position: relative; /* Ensure the form container is positioned relative to its parent */
+  z-index: 1; /* Ensure the form appears above the video */
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(192, 190, 190, 0.8); /* Add a semi-transparent background to the form */
+  margin: auto;
+  margin-top: 150px; /* Center the form horizontally */
+}
+
+/* Remaining styles remain unchanged */

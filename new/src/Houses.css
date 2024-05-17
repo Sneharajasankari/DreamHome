@@ -1,0 +1,75 @@
+/* .houses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 700px;
+} */
+
+.house-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px; /* Added to limit width */
+  margin: 0 auto; /* Added to center the items */
+  padding: 0 20px;
+}
+
+.house-item {
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: #fff; /* Added background color for clarity */
+  border-radius: 10px; /* Added border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  transition: transform 0.3s ease; 
+}
+.house-item:hover {
+  color:#a999ee;
+  transform: translateY(-5px); /* Added hover effect to lift the item slightly */
+}
+
+
+.house-item img {
+  width: 100%;
+  border-top-left-radius: 10px; /* Rounded corners for top left and right */
+  border-top-right-radius: 10px;
+}
+
+.book-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px; /* Added border radius to button */
+}
+
+.book-btn:hover {
+  background-color: #555;
+}
+
+.heading {
+  color: black;
+}
+.houses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px; /* Adjusted margin-top */
+}
+body {
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  /* margin: auto; */
+}
+h2{
+  padding-bottom: 50px;
+}

@@ -1,0 +1,46 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+}
+
+.slideshow {
+  flex: 1; /* Let the slideshow take up all available space */
+  max-width: 100%; /* Ensure slideshow doesn't exceed the container width */
+  height: auto; /* Allow the height to adjust according to the image */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  width: 100%; /* Ensure the slide takes up the full width of the slideshow */
+  height: 100%; /* Ensure the slide takes up the full height of the slideshow */
+  object-fit: cover; /* Maintain aspect ratio while covering the slide */
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  left: 0;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.text-container {
+  flex: 1; /* Let the text container take up all available space */
+  max-width: 100%; /* Ensure text container doesn't exceed the container width */
+  padding: 20px; /* Add padding to the text container */
+}
+
+.about-container h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.about-container p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #666;
+}
